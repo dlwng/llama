@@ -1,0 +1,172 @@
+nav {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#heading {
+	margin-top: 3em;
+}
+
+.currentTab {
+	color:#41437A;
+}
+
+.notCurrent {
+	color:#619EDA;
+}
+
+#heading > p {
+	font-size: 1.3em;
+	margin-left: .8em;
+	margin-top: 1em;
+}
+
+#navigation {
+	text-align: center;
+	margin:0;
+}
+
+.container {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+ul li {
+	display: inline-block;
+}
+
+.mainContent > .span8 > p {
+	line-height: 140%;
+}
+
+ul {
+	border:1px solid black;
+	border-width:1px 0;
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+ul a {
+	display:block;
+	padding:.5em;
+	font-size: 1.6em;
+	text-decoration: none;
+	margin: 0;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.mainContent {
+	font-size: 1.3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainContentImage {
+	float: right;
+	padding-left: .3em;
+}
+
+.question {
+	font-weight: bold;
+}
+
+.answer {
+	margin-left: 3em;
+	margin-bottom: 2em;
+	font-size: .8em;
+}
+
+h3:hover {
+	cursor: pointer;
+	color:#D26439;
+}
+
+.fact > p {
+		padding-left: 2em;
+	}
+
+@media (max-width: 550px) {
+
+	ul {
+		padding-top: 1em; 
+	}
+
+	ul li {
+		display: block;
+		background-color: grey;
+		color:white;
+		margin-bottom: 1em;
+	}
+
+	.container {
+		width:100%;
+	}
+
+	#heading > h1  {
+		font-size: 1.5em;
+		margin-bottom:0;
+	}
+
+	#heading > p {
+		font-size: .9em;
+		margin-top: 0;
+	}
+
+	#heading {
+		margin-top: 0;
+	}
+
+	nav {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	ul a {
+		color:#41437A;
+		padding-top: .5em;
+		padding-bottom: .5em;
+		margin:0;
+	}
+
+	.container> .row>.span3 {
+		width: 50%;
+		display: inline-block;
+		float: left;
+	}
+
+	.container> .row>.span5 {
+		float: right;
+		display: block;
+		width: 50%;
+	}
+
+	.span2 > h1 {
+		display: inline-block;
+		float: right;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	#heading > h1 {
+		font-size: 3em;
+	}
+
+	#heading > p {
+		font-size: 1em;
+	}
+
+	ul a {
+		font-size:1.3em;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+}
